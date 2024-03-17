@@ -58,12 +58,14 @@ table {
 body {
 	margin-top: 10px;
 	padding: 0;
-	background: #7DB8A2;
+	background:  url('images/flower_background.jpg') no-repeat center center fixed;
+	background-size: 100% 100%;
 	font-size: 12px;
 	font-family: Georgia, "Tahoma", Times, serif;
 	text-align: justify;
 	color: #000000;
 }
+
 
 h1 {
 	margin: 0;
@@ -196,11 +198,11 @@ input, textarea, select {
 
 #menu a:hover { 
 	background: #9b334d url(images/img04_n2.gif) repeat-x;
-	color: #FFFAD3;
+	color: #fdd3ff;
 }
 
 #menu .current_page_item a {
-	background: #9b334d url(images/img04_n.gif) repeat-x;
+	background: #938588 url(images/img04_n.gif) repeat-x;
 	color: #000000;
 }
 
@@ -255,7 +257,7 @@ input, textarea, select {
 	width: 740px;
 	margin: 0 auto;
 	padding: 20px 30px 0px 30px;
-	background: #FFFAD3;
+	background: #f9e7e7;
 }
 
 /* Content */
